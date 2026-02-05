@@ -26,7 +26,7 @@ jobs:
           MIGET_TOKEN_KEY: ${{ secrets.MIGET_TOKEN_KEY }}
         run: |
           git remote add miget \
-            https://migetr0v:${MIGET_TOKEN_KEY}@git.eu-east-1.miget.io/migetr0v/yrusin-ivrne
+            https://miget3lp:${MIGET_TOKEN_KEY}@git.us-east-1.miget.io/miget3lp/arie-qjzzg
 
       - name: Push to Miget
         run: |
