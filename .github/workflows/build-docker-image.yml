@@ -39,7 +39,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ github.repository_owner }}/miget-us:${{ github.sha }}
+            ghcr.io/${{ github.repository_owner }}/miget-us:${{ github.sha  | slice(0,7) }}
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
