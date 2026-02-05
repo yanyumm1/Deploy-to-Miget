@@ -1,3 +1,10 @@
+不需要那么麻烦了。直接用build-docker-image.yml这个工作流生成镜像去平台通过镜像地址去搭建就好了。
+
+镜像地址不需要填tag
+tag版本号填第二个框
+
+
+
 # 🚀 使用 GitHub Actions 自动部署到 Miget
 
 本仓库通过 **GitHub Actions** 自动将代码部署到 **Miget** 平台。
