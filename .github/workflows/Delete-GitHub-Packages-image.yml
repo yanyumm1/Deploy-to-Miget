@@ -10,12 +10,12 @@ jobs:
       packages: write
 
     steps:
-      - name: Delete miget
+      - name: Delete package img
         uses: actions/github-script@v7
         with:
           script: |
             const owner = "yanyumm1";
-            const packageName = "miget";
+            const packageName = "migetus";
             const packageType = "container";
 
             console.log("Deleting entire package...");
