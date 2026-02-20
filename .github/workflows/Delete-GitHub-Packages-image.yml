@@ -16,7 +16,7 @@ jobs:
         with:
           script: |
             const owner = context.repo.owner;
-            const packageName = "miget-us";   // 就是 Packages 里显示的名字
+            const packageName = "miget";   // 就是 Packages 里显示的名字
             const packageType = "container";
 
             const versions = await github.paginate(
